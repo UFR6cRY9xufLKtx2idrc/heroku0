@@ -1,18 +1,18 @@
 {
-    "name": "v2ray",
-    "description": "v2ray with caddy and tor on heroku",
-    "keywords": ["v2ray"],
+    "name": "heroku",
+    "description": "heroku",
+    "keywords": ["heroku"],
     "env": {
         "UUID": {
-            "description": "v2ray UUID",
-            "value": "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
+            "description": "UUID",
+            "value": "UUID"
         },
         "WSPATH": {
-            "description": "websockets path",
+            "description": "path",
             "value": "/"        
         }
     },
-    "website": "https://github.com/mixool/v2ray",
-    "repository": "https://github.com/mixool/v2ray",
+    "website": "https://github.com/eldritchmask/heroku",
+    "repository": "https://github.com/eldritchmask/heroku",
     "stack": "container"
 }
